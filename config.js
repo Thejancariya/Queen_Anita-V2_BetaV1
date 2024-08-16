@@ -48,9 +48,9 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
-  packname: process.env.PACK_NAME || "A N I T A",
+  caption: process.env.CAPTION || "`🎖️Eꪜ̶͜ílꪇнͥ͢σѕͣтͫ|ᥫ᭡`",
+  author: process.env.PACK_AUTHER || "🎖️Eꪜ̶͜ílꪇнͥ͢σѕͣтͫ|ᥫ᭡",
+  packname: process.env.PACK_NAME || "T H E J A N",
   botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
   ownername: process.env.OWNER_NAME || "David Cyril",
   errorChat: process.env.ERROR_CHAT || "",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
 global.rank = "updated";
